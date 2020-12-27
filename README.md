@@ -24,4 +24,25 @@ python PyDictionary.py
 <h3>Demos</h3>
 <h4>Word Lookup and English-to Chinese Translation</h4>
 
-These two functions are initated with the command `translate`, followed by the word to look up or the English sentence to translate. If the followed content constains only one word, `translate` will return the word definitions from [Google Dictionary-Chinese](https://gdictchinese.freecollocation.com).
+These two functions are initated with the command `translate`, followed by the word to look up or the English sentence to translate. If the following content constains one single word, `translate` will return the word definitions from [Google Dictionary-Chinese](https://gdictchinese.freecollocation.com), otherwise,  a Chinese translation from [Google Translate](https://translate.google.com) will be returned.
+
+**Example**
+
+```
+PyDict> translate eminent
+
+1. of people人famous and respected, especially in a particular profession（尤指在某专业中）卓越的，著名的，显赫的
+   -an eminent architect著名的建筑师
+
+2. of good qualities良好品质unusual; excellent非凡的；杰出的
+   -a man of eminent good sense极其明智的人
+```
+
+
+```
+PyDict> translate The abilities of modern neural networks are the result of the interactions of thousands of neurons (sometimes tens of thousands or more!).
+
+现代神经网络的能力是成千上万个神经元（有时成千上万个或更多！）相互作用的结果。
+```
+
+<h4>Text Speaking</4>
