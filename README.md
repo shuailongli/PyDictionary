@@ -60,7 +60,7 @@ PyDict> speak any_text
 PyDictionary provides the basic setups to help study English vocabularies, sentences and listening materials by saving them to notebook. Three setups are implemented in three modes:
 
 <ul>
-<li>**vocabulary**
+<li><h4>vocabulary</h4>
 
 Enter the vocabulary mode
  ```
@@ -109,7 +109,7 @@ Are you sure to remove:
 apple removed from notebook
 ```
 
-<li>**sentence**
+<li><h4>sentence</h4>
 
 Enter sentence mode
 ```
@@ -118,7 +118,7 @@ PyDict> sentence
 
 This mode works similarly to the vocabulary mode: use `add` command to add a sentence to notebook, `all` to display, `play` to speak and `remove` to remove the sentence.
 
-<li>**listening**
+<li><h4>listening</h4>
 
 Enter sentence mode
 ```
