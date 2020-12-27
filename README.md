@@ -1,5 +1,5 @@
 # PyDictionary
-This program is running in the command line framework. Basic functions include text speaking, word lookup, English-to-Chinese sentence translation, Youtube audio play and download. Users can also add and save new words and sentences to the notebook.
+This program is running in the command line framework. Basic functions include text speaking, word lookup, English-to-Chinese sentence translation, Youtube audio play and download. In addition, users can add and save new words, sentences and listening materials to the notebook.
 
 <h2>Prerequisite python libraries:</h2> 
 <ul>
@@ -11,7 +11,7 @@ This program is running in the command line framework. Basic functions include t
 
 <h2>Setup</h2>
 <ol>
-  <li>Download the .zip file to local file_dir
+  <li>Download the .zip file to local `file_dir`
   <li>Launch terminal, input and execute the following command lines
 
 ```
@@ -20,13 +20,13 @@ cd file_dir/PyDict
 ```
 python PyDictionary.py
 ```
-If the code runs successfully, you'll enter a command line interface started with prompt `PyDict>`.
+If the code runs correctly, you'll enter a command line interface started with prompt `PyDict>`.
 
 </ol>
 <h2>Demos</h2>
 <h3>Word Lookup and English-to Chinese Translation</h3>
 
-These two functions are initated with the command `translate`, followed by the word to look up or the English sentence to translate. If the following content constains only one single word, `translate` will return the word definitions from [Google Dictionary-Chinese](https://gdictchinese.freecollocation.com), otherwise,  a Chinese translation from [Google Translate](https://translate.google.com) will be returned.
+These two functions are initiated with the command `translate`, followed by the word to look up or the English sentence to translate. If the target content contains only one single word, `translate` will return the word definitions from [Google Dictionary-Chinese](https://gdictchinese.freecollocation.com), otherwise,  a Chinese translation from [Google Translate](https://translate.google.com) will be returned.
 
 **Example**
 
@@ -49,7 +49,7 @@ PyDict> translate The abilities of modern neural networks are the result of the 
 
 <h3>Text Speaking</h3>
 
-Started with command `speak` and followed by the text to speak. This command will play the audio of the following English text.
+Started with command `speak` and followed by the text to speak. This command will play the audio of the English text.
 
 **Syntax**
 ```
@@ -77,9 +77,9 @@ example: an apple pie
    * a round fruit with shiny red or green skin and firm white flesh
    * an apple pie
 ```
-After exectuting `add vocabulary` in the first line, a block for a word in notebook is created. A word block contains three entries: word, meaning and example. While the word entry is required to save a word block to notebook, the other two are optional.
+After executing `add` in the first line, a block to store a word in the notebook is created. A word block contains three entries: word, meaning and example. While the word entry is required to save a word block to notebook, the other two are optional.
 
-Display all saved word blocks
+List all saved word blocks
 ```
 ---------------------
 PyDict> all
@@ -90,7 +90,7 @@ PyDict> all
    * 0
 ---------------------
 ```
-The integer in the fourth entry shows the number of times the word has been studied. When `all` is followed by a string, it will display all word blocks initiated by that string.
+The integer in the fourth entry records the number of times the word has been studied. If `all` is followed by a string, the list will restrict to words initiated by that string.
 
 Users can also listen to the saved words by executing
 ```
@@ -116,7 +116,7 @@ Enter sentence mode
 PyDict> sentence
 ```
 
-This mode works similarly to the vocabulary mode: use `add` command to add a sentence to notebook, `all` to display, `play` to speak and `remove` to remove the sentence.
+This mode works similarly to the vocabulary mode: use the `add` command to add a sentence to the notebook, `all` to display, `play` to speak and `remove` to remove the sentence.
 
 <li><h4>listening</h4>
 
@@ -124,9 +124,9 @@ Enter sentence mode
 ```
 PyDict> listening
 ```
-User can download and play interesting audios from Youtube videos in this mode. 
+Users can extract and download audios from interesting Youtube videos in this mode. 
 
-Add audio to notebook through the Yutube link
+Add an audio to notebook through the Youtube link
 ```
 PyDict> add 
 Youtube link: https://youtu.be/yIZ95TBD85c
@@ -143,5 +143,5 @@ Deleting original file storage/ListeningAudio/yIZ95TBD85c.m4a (pass -k to keep)
    * https://youtu.be/yIZ95TBD85c
    * 1:49
 ```
-The fist entry in the audio block displays the Yutube video ID. Note that all audios in notebook are referred through the Yutube ID. Similarly, users use `all` to list, `play` to play and `remove` to remove the audios.
+The first entry in the audio block displays the Youtube video ID. Note that all audios in the notebook are referred through their Youtube ID. Again, users use the command `all` to list, `play` to play and `remove` to remove the audios.
 </ul>
