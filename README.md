@@ -3,10 +3,10 @@ This program is running in the command line framework. Basic functions include t
 
 <h3>Prerequisite python libraries:</h3> 
 <ul>
-<li><a href="https://pypi.org/project/youtube_dl/">youtube_dl</a>
-<li><a href="https://pypi.org/project/google-trans-new/">google_trans_new</a>
-<li><a href="https://pypi.org/project/gTTS/">gtts</a>
-<li><a href="https://pypi.org/project/SpeechRecognition/">speech_recognition</a>
+<li><a href="https://pypi.org/project/youtube_dl/" target="_blank">youtube_dl</a>
+<li><a href="https://pypi.org/project/google-trans-new/" target="_blank">google_trans_new</a>
+<li><a href="https://pypi.org/project/gTTS/" target="_blank">gtts</a>
+<li><a href="https://pypi.org/project/SpeechRecognition/" target="_blank">speech_recognition</a>
 </ul>
 
 <h3>Setup</h3>
