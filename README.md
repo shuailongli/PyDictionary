@@ -59,7 +59,8 @@ PyDict> speak any_text
 <h3>Save to Notebook</h3>
 PyDictionary provides the basic setups to help study English vocabularies, sentences and listening materials by saving them to notebook. Three setups are implemented in three modes:
 
-**vocabulary**
+<ul>
+<li>**vocabulary**
 
 Enter the vocabulary mode
  ```
@@ -108,7 +109,8 @@ Are you sure to remove:
 apple removed from notebook
 ```
 
-**sentence**
+<li>**sentence**
+
 Enter sentence mode
 ```
 PyDict> sentence
@@ -116,7 +118,8 @@ PyDict> sentence
 
 This mode works similarly to the vocabulary mode: use `add` command to add a sentence to notebook, `all` to display, `play` to speak and `remove` to remove the sentence.
 
-**listening**
+<li>**listening**
+
 Enter sentence mode
 ```
 PyDict> listening
@@ -141,3 +144,4 @@ Deleting original file storage/ListeningAudio/yIZ95TBD85c.m4a (pass -k to keep)
    * 1:49
 ```
 The fist entry in the audio block displays the Yutube video ID. Note that all audios in notebook are referred through the Yutube ID. Similarly, users use `all` to list, `play` to play and `remove` to remove the audios.
+</ul>
