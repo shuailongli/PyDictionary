@@ -23,4 +23,4 @@ python PyDictionary.py
 </ol>
 <h3>Demos</h3>
 <h4>Word Lookup and English-to Chinese Translation</h4>
-
+These two functions are initated with the command 'translate', followed by the word to look up or the English sentence to translate. If the followed content constains only one word, 'translate' will return the word definitionss from Google [Dictionary-Chinese](https://gdictchinese.freecollocation.com).
