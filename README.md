@@ -25,7 +25,7 @@ If the program runs correctly, you'll enter a command line interface started wit
 
 </ol>
 <h2>Demos</h2>
-<h3>Word Lookup and English-to Chinese Translation</h3>
+<h3>Word Lookup and English-to-Chinese Translation</h3>
 
 These two functions are initiated with the command `translate`, followed by the word to look up or the English sentence to translate. If the target content contains only one single word, `translate` will return the word definitions from [Google Dictionary-Chinese](https://gdictchinese.freecollocation.com), otherwise,  a Chinese translation from [Google Translate](https://translate.google.com) will be returned.
 
