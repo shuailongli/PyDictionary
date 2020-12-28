@@ -1,7 +1,6 @@
 from __future__ import unicode_literals
 from cmd import Cmd
 import os
-import re
 from time import sleep
 from AudioProcessor import speak
 from youtube_dl import YoutubeDL

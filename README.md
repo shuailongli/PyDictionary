@@ -1,26 +1,27 @@
 # PyDictionary
-This program is running in the command line framework. Basic functions include text speaking, word lookup, English-to-Chinese sentence translation, Youtube audio play and download. In addition, users can add and save new words, sentences and listening materials to the notebook.
+This program is running in the command line framework. Basic functions include text speaking, word lookup, English-to-Chinese translation, Youtube audio play and download. In addition, users can add and save new words, sentences and listening materials to the notebook.
 
 <h2>Prerequisite python libraries:</h2> 
 <ul>
 <li><a href="https://pypi.org/project/youtube_dl/" target="_blank">youtube_dl</a>
 <li><a href="https://pypi.org/project/google-trans-new/" target="_blank">google_trans_new</a>
 <li><a href="https://pypi.org/project/gTTS/" target="_blank">gtts</a>
-<li><a href="https://pypi.org/project/SpeechRecognition/" target="_blank">speech_recognition</a>
+<li><a href="https://pypi.org/project/selenium/" target="_blank">selenium</a>
+<li><a href="https://pypi.org/project/bs4/" target="_blank">bs4</a>
 </ul>
 
 <h2>Setup</h2>
 <ol>
-  <li>Download the .zip file to local `file_dir`
+  <li>Download the .zip file to local `file_dir` and unzip it.
   <li>Launch terminal, input and execute the following command lines
 
 ```
-cd file_dir/PyDict
+cd file_dir/PyDictionary-main
 ```
 ```
 python PyDictionary.py
 ```
-If the code runs correctly, you'll enter a command line interface started with prompt `PyDict>`.
+If the program runs correctly, you'll enter a command line interface started with prompt `PyDict>`.
 
 </ol>
 <h2>Demos</h2>
