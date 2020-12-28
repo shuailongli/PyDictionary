@@ -121,7 +121,7 @@ This mode works similarly to the vocabulary mode: use the `add` command to add a
 
 <li><h4>listening</h4>
 
-Enter sentence mode
+Enter listening mode
 ```
 PyDict> listening
 ```
